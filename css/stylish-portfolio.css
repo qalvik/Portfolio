@@ -50,14 +50,14 @@ h6 {
   height: 30rem;
 }
 
+.map iframe {
+  pointer-events: none;
+}
+
 @media (max-width: 992px) {
   .map {
     height: 75%;
   }
-}
-
-.map iframe {
-  pointer-events: none;
 }
 
 .scroll-to-top {
@@ -93,7 +93,7 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.5) 100%), url("../img/bg-masthead.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -103,6 +103,7 @@ h6 {
   font-size: 4rem;
   margin: 0;
   padding: 0;
+  color: #ffff00;
 }
 
 @media (min-width: 992px) {
@@ -149,8 +150,7 @@ h6 {
   background: rgba(255, 255, 255, 0.2);
 }
 
-.sidebar-nav li a:active,
-.sidebar-nav li a:focus {
+.sidebar-nav li a:active, .sidebar-nav li a:focus {
   text-decoration: none;
 }
 
@@ -245,17 +245,17 @@ h6 {
   z-index: 1;
 }
 
-.portfolio-item .caption .caption-content {
+.portfolio-item .caption-content {
   color: #fff;
   margin: auto 2rem 2rem;
 }
 
-.portfolio-item .caption .caption-content h2 {
+.portfolio-item .caption-content h2 {
   font-size: 0.8rem;
   text-transform: uppercase;
 }
 
-.portfolio-item .caption .caption-content p {
+.portfolio-item .caption-content p {
   font-weight: 300;
   font-size: 1.2rem;
 }
@@ -272,7 +272,7 @@ h6 {
     -webkit-clip-path: inset(0px);
     clip-path: inset(0px);
   }
-  .portfolio-item .caption .caption-content {
+  .portfolio-item .caption-content {
     transition: opacity 0.25s;
     margin-left: 5rem;
     margin-right: 5rem;

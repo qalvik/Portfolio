@@ -47,16 +47,15 @@ h6 {
 
 .map {
   height: 30rem;
+  & iframe {
+      pointer-events: none;
+  }
 }
 
 @media(max-width: 992px) {
   .map {
     height: 75%;
   }
-}
-
-.map iframe {
-  pointer-events: none;
 }
 
 // Scroll to top button
