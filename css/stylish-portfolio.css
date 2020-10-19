@@ -18,6 +18,10 @@ body {
   padding: 1.25rem 2.5rem;
 }
 
+.logo {
+  width: 40%;
+}
+
 .content-section {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
@@ -131,7 +135,7 @@ h6 {
 .sidebar-nav {
   position: absolute;
   top: 0;
-  width: 250px;
+  width: 300px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -175,7 +179,7 @@ h6 {
 
 #sidebar-wrapper.active {
   right: 250px;
-  width: 250px;
+  width: 300px;
   transition: all 0.4s ease 0s;
 }
 
