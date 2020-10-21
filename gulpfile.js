@@ -12,7 +12,7 @@ const plumber = require("gulp-plumber");
 const rename = require("gulp-rename");
 const sass = require("gulp-sass");
 const uglify = require("gulp-uglify");
-
+const babel = require("gulp-babel");
 // Load package.json for banner
 const pkg = require('./package.json');
 
@@ -107,6 +107,14 @@ function js() {
       './js/*.js',
       '!./js/*.min.js'
     ])
+    .pipe(plumber())
+        .pipe(babel({
+            presets: [
+                ['@babel/env', {
+                    modules:false
+                }]
+            ]
+        }))
     .pipe(uglify())
     .pipe(header(banner, {
       pkg: pkg
