@@ -206,7 +206,7 @@ h6 {
 
 .service-icon {
   background-color: #fff;
-  color: #78647d;
+  color: #40393d;
   height: 7rem;
   width: 7rem;
   display: block;
@@ -389,6 +389,7 @@ a:hover, a:focus, a:active {
 }
 
 .icon-hover {
+  color: #78647d;
   transition: transform .3s;
 }
 

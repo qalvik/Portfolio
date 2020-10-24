@@ -3,6 +3,7 @@
   }
 
 .icon-hover{
+    color: $primary;
     transition: transform .3s;
 }
 .icon-hover:hover{
