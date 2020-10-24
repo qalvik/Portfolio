@@ -43,11 +43,11 @@ a {
 }
 
 .bg-primary {
-  background-color: $tetriary !important;
+  background-color: $primary !important;
 }
 
 .text-primary {
-  color: $primary !important;
+  color: $tetriary !important;
 }
 
 .text-secondary {
@@ -55,9 +55,9 @@ a {
 }
 
 .bg-tetriary{
-  background-color: $primary !important;
+  background-color: $tetriary !important;
 }
 
-.text-bigger{
-  font-size: 20px;
-}
+
+
+

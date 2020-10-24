@@ -206,7 +206,7 @@ h6 {
 
 .service-icon {
   background-color: #fff;
-  color: #40393d;
+  color: #78647d;
   height: 7rem;
   width: 7rem;
   display: block;
@@ -294,7 +294,7 @@ h6 {
     clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(64, 57, 61, 0.9);
+    background-color: rgba(120, 100, 125, 0.9);
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
@@ -317,33 +317,33 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #78647d;
+  background-color: #40393d;
   transition: background-color 0.15s ease-in-out;
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
 footer.footer .social-link:hover {
-  background-color: #5d4d61;
+  background-color: #252123;
   text-decoration: none;
 }
 
 a {
-  color: #40393d;
+  color: #78647d;
 }
 
 a:hover, a:focus, a:active {
-  color: #252123;
+  color: #5d4d61;
 }
 
 .btn-primary {
-  background-color: #40393d !important;
-  border-color: #40393d !important;
+  background-color: #78647d !important;
+  border-color: #78647d !important;
   color: #fff !important;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #252123 !important;
-  border-color: #252123 !important;
+  background-color: #5d4d61 !important;
+  border-color: #5d4d61 !important;
 }
 
 .btn-secondary {
@@ -386,4 +386,12 @@ a:hover, a:focus, a:active {
 
 .text-bigger {
   font-size: 20px;
+}
+
+.icon-hover {
+  transition: transform .3s;
+}
+
+.icon-hover:hover {
+  transform: scale(1.3);
 }
